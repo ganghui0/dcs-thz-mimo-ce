@@ -1,0 +1,33 @@
+name: torch
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - cudatoolkit
+  - git
+  - h5py
+  - jupyter
+  - jupyterlab-git
+  - jupyterlab-lsp
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - -r requirements.txt
+  - python
+  - pytorch
+  - pytorch-cuda=12.1
+  - python-language-server
+  - scikit-learn
+  - scipy
+  - tensorboard
+  - torchaudio
+  - torchinfo
+  - torchmetrics
+  - torchtext
+  - torchvision
